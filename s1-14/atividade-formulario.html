@@ -9,50 +9,53 @@
 
     <form>
 
-        <div>
-            <label for="nome">Nome</label>
-            <input type="text" name="Nome" id="nome" placeholder="Digite seu nome" required>
-        </div>
-        <br>
-        <div>
-            <label for="e-mail">E-mail</label>
-            <input type="email" name="e-mail" id="e-mail" placeholder="Digite seu e-mail" required>
-        </div>
-        <br>
-        <div>
-            <label for="texto">O que o motivou a participar do evento?</label>
-            <textarea name="motivo" id="texto" cols="30" rows="10" placeholder="Escreva o seu motivo aqui..." required></textarea>
-        </div>
-        <br>
-        <div>
-            <label for="modulo">Selecione o seu modulo</label>
-            <select name="Modulo" id="modulo" required>
-                <option value="">Escolher modulo</option>
-                <option value="modulo-1">Modulo 1</option>
-                <option value="modulo-2">Modulo 2</option>
-                <option value="modulo-3">modulo 3</option>
-            </select>
-        </div>
-        <br>
-        <div>
-            <label for="senha">Digite sua senha:</label>
-            <input type="password" name="Senha" id="senha" placeholder="Digite sua senha aqui..." required>
-        </div>
-        <br>
-        <div>
-            <label for="senhacConfirme">Confirme sua senha:</label>
-            <input type="password" name="SenhaConfirme" id="senhaconfirme" placeholder="Confirme sua senha aqui..." required>
-        </div>
-        <br>
-        <div>
-            <p>Você deseja receber mensagem no seu e-mal?</p>
-            <label for="respostaSim">Sim</label>
-            <input type="radio" name="Resposta" id="repostaSim" value="Sim" required>
-            <label for="respostaNao">Não</label>
-            <input type="radio" name="Resposta" id="respostaNao" value="Nao" required>
-        </div>
-        <br>
-        <button type="submit">Cadastrar</button>
+        <fieldset>
+            <legend>Cadastro de Aluno</legend>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="Nome" id="nome" placeholder="Digite seu nome" required>
+            </div>
+            <br>
+            <div>
+                <label for="e-mail">E-mail</label>
+                <input type="email" name="e-mail" id="e-mail" placeholder="Digite seu e-mail" required>
+            </div>
+            <br>
+            <div>
+                <label for="texto">O que o motivou a participar do evento?</label>
+                <textarea name="motivo" id="texto" cols="30" rows="10" placeholder="Escreva o seu motivo aqui..." required></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="modulo">Selecione o seu modulo</label>
+                <select name="Modulo" id="modulo" required>
+                    <option value="">Escolher modulo</option>
+                    <option value="modulo-1">Modulo 1</option>
+                    <option value="modulo-2">Modulo 2</option>
+                    <option value="modulo-3">modulo 3</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="senha">Digite sua senha:</label>
+                <input type="password" name="Senha" id="senha" placeholder="Digite sua senha aqui..." required>
+            </div>
+            <br>
+            <div>
+                <label for="senhacConfirme">Confirme sua senha:</label>
+                <input type="password" name="SenhaConfirme" id="senhaconfirme" placeholder="Confirme sua senha aqui..." required>
+            </div>
+            <br>
+            <div>
+                <p>Você deseja receber mensagem no seu e-mal?</p>
+                <label for="respostaSim">Sim</label>
+                <input type="radio" name="Resposta" id="repostaSim" value="Sim" required>
+                <label for="respostaNao">Não</label>
+                <input type="radio" name="Resposta" id="respostaNao" value="Nao" required>
+            </div>
+            <br>
+            <button type="submit">Cadastrar</button>
+        </fieldset>
 
     </form>
     
