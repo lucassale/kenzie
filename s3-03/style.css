@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8vw 8vw;
+    box-shadow: 6px 4px 2px rgba(0, 0, 0, 0.4);
+}
+
+.logo{
+    flex-grow: 1;
+    color: blue;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.nav{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 4vw;
+    flex-grow: 1;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+.link:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.link:focus{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
